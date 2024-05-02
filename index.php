@@ -51,7 +51,7 @@ $f3->route('GET|POST /summary', function() {
 
     // Render a view page
     $view = new Template();
-    echo $view->render('views/survey.html');
+    echo $view->render('views/summary.html');
 });
 
 
